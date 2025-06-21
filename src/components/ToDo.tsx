@@ -21,6 +21,8 @@ export default function ToDo({id,title,completed,pin,onDelete,onToggle,onName,on
     const [edit,setEdit]=useState(false);
     const [task,setTask]=useState(title);
     const [Deadline,setDeadline]=useState(deadline);
+    const today = new Date().toISOString().split('T')[0];
+    console.log(today)
     const HandleEdit=()=>{
         setEdit(!edit)
     }
@@ -46,10 +48,10 @@ export default function ToDo({id,title,completed,pin,onDelete,onToggle,onName,on
             ></input>
             <div className="flex flex-col">
             {edit?<input type="text" className="bg-white pt-3 p-2 text-xl z-50" value={task}onChange={NameChange}></input>:
-            <label onClick={HandleEdit} className={`text-xl p-2 ml-2 ${complete?"line-through":""}`}>{task}</label>
+            <label onClick={HandleEdit} className={`text-xl p-2 ml-2 ${complete?"line-through":"" } ${(today>deadline)?"text-red-600":"" }`}>{task}</label>
             }
             {edit?<input type="date" className="bg-white pt-3 p-2 text-lg z-50" value={Deadline}onChange={DeadlineChange}></input>:
-            <label onClick={HandleEdit} className={`text-lg ml-15 text-gray-600 ${complete?"line-through":""}`}>{Deadline}</label>
+            <label onClick={HandleEdit} className={`text-lg ml-15 text-gray-600 ${complete?"line-through":""} ${(today>deadline)?"text-red-600":"" }`}>{Deadline}</label>
             }
             </div>
             {edit&&<button className="bg-indigo-600 text-white p-2 rounded-xl text-xl">Save</button>}

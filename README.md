@@ -19,46 +19,21 @@ Contributing
 License
 
 📖 About
-🔹 Space Management
-Create new Spaces to organize tasks by context (e.g., Work, Study, Personal)
+This project is a Space-based To-Do List Manager that helps users stay organized by allowing them to create and manage multiple Spaces. Each Space acts as a separate workspace, containing its own To-Do List.
 
-Edit and delete existing Spaces
+Within each Space, users can:
 
-📝 To-Do List per Space
-Add tasks specific to each Space
-
-Edit task titles and deadlines
-
-Delete tasks when no longer needed
-
-✅ Task Controls
-Mark tasks as completed
+Create, edit, and delete tasks
 
 Pin important tasks to prioritize them
 
-Set and update deadlines
+Mark tasks as completed
 
-🔍 Smart Filters
-Filter tasks by:
+Set and manage task deadlines
 
-All
+Filter tasks by various criteria
 
-Pinned
-
-Completed
-
-Upcoming deadlines
-
-Quickly find what matters most
-
-🧠 Organized and User-Friendly
-Minimal, distraction-free interface
-
-Real-time updates with no reloads
-
-Contextual task grouping within Spaces
-
-This is a simple to-do list app built using React. It allows users to create, delete, and mark tasks as completed.
+Additionally, tasks that miss their deadlines are visually highlighted in red, helping users quickly identify overdue items.
 
 ✨ Features
 🗂️ Space Management
@@ -66,14 +41,16 @@ Create multiple Spaces to organize tasks by category (e.g., Work, Study, Persona
 
 Edit and delete existing Spaces
 
-✅ To-Do List per Space
+✅ Task Controls
 Add, edit, and delete tasks within each Space
 
-Set deadlines for each task
+Set and update deadlines for each task
 
 Mark tasks as completed
 
 Pin important tasks to keep them at the top
+
+Overdue tasks automatically turn red to indicate missed deadlines
 
 🔍 Task Filtering
 Filter tasks by:
@@ -89,8 +66,9 @@ Upcoming Deadlines
 💡 User Experience
 Clean, intuitive, and responsive UI
 
-Real-time task updates
+Real-time task updates without page reloads
 
+Organized, context-based task management within Spaces
 Fully organized workspace per Space
 🛠 Tech Stack
 Frontend: React, Tailwind CSS
