@@ -22,10 +22,11 @@ function SpacePage({data,change}:HomePageProp){
                         tasks: [
                         ...s.tasks,
                         {
-                            id: Date.now(), // unique ID
+                            id: Date.now(),
                             title: title.trim(),
                             completed: false,
-                            deadline: deadline, // from input
+                            deadline: deadline,
+                            pin:false 
                         },
                         ],
                     }

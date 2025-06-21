@@ -10,6 +10,7 @@ export interface Data{
       title:string,
       completed:boolean,
       deadline:string,
+      pin:boolean,
     }[]
 }
 function App() {
