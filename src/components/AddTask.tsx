@@ -37,7 +37,7 @@ function AddTask({SetAddToggle,Add}:AddTaskProp){
             type="date" 
             className="bg-white "></input>
             </div>
-            <button className="rounded-2xl pl-4 pr-4 pb-2 pt-1 text-xl bg-indigo-600 mt-5">Save</button>
+            <button className="rounded-2xl pl-4 pr-4 pb-2 text-xl bg-indigo-600 mt-5">Save</button>
         </form>
         <div onClick={()=>{SetAddToggle()}} className=" absolute top-0 right-0"><IoIosCloseCircle className="w-7 h-7" /></div>
     </div>
