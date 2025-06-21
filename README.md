@@ -19,52 +19,79 @@ Contributing
 License
 
 📖 About
-This project is a Space-based To-Do List Manager that helps users stay organized by allowing them to create and manage multiple Spaces. Each Space acts like an independent workspace and contains its own To-Do List.
-
-Within each Space, users can:
-
-Create, edit, and delete tasks
-
-Pin important tasks to keep them at the top
-
-Mark tasks as completed
-
-Assign deadlines to each task for better time management
-
-The project is designed for productivity enthusiasts who want to compartmentalize their tasks across different contexts (e.g., Work, Study, Personal) while retaining a simple and intuitive interface.
-
-Example:
-
-This is a simple to-do list app built using React. It allows users to create, delete, and mark tasks as completed.
-
-✨ Features
 🔹 Space Management
-Create new Spaces for different contexts (e.g., Work, Study, Personal)
+Create new Spaces to organize tasks by context (e.g., Work, Study, Personal)
 
 Edit and delete existing Spaces
 
 📝 To-Do List per Space
-Add tasks unique to each Space
+Add tasks specific to each Space
 
 Edit task titles and deadlines
 
 Delete tasks when no longer needed
 
-✅ Task Actions
-Mark tasks as completed with a single click
+✅ Task Controls
+Mark tasks as completed
 
-Pin important tasks to keep them at the top
+Pin important tasks to prioritize them
+
+Set and update deadlines
+
+🔍 Smart Filters
+Filter tasks by:
+
+All
+
+Pinned
+
+Completed
+
+Upcoming deadlines
+
+Quickly find what matters most
+
+🧠 Organized and User-Friendly
+Minimal, distraction-free interface
+
+Real-time updates with no reloads
+
+Contextual task grouping within Spaces
+
+This is a simple to-do list app built using React. It allows users to create, delete, and mark tasks as completed.
+
+✨ Features
+🗂️ Space Management
+Create multiple Spaces to organize tasks by category (e.g., Work, Study, Personal)
+
+Edit and delete existing Spaces
+
+✅ To-Do List per Space
+Add, edit, and delete tasks within each Space
 
 Set deadlines for each task
 
-🧠 Organized and User-Friendly
-Clean, minimal UI for better focus
+Mark tasks as completed
 
-Instant updates without page refresh
+Pin important tasks to keep them at the top
 
-Tasks grouped and managed contextually within Spaces
+🔍 Task Filtering
+Filter tasks by:
 
+All Tasks
 
+Pinned
+
+Completed
+
+Upcoming Deadlines
+
+💡 User Experience
+Clean, intuitive, and responsive UI
+
+Real-time task updates
+
+Fully organized workspace per Space
 🛠 Tech Stack
 Frontend: React, Tailwind CSS
 
