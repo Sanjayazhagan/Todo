@@ -29,7 +29,7 @@ function AddTask({SetAddToggle,Add}:AddTaskProp){
             type="text" 
             className="bg-white "></input>
             </div>
-            <div className="flex justify-around">
+            <div className="flex justify-around mt-2">
             <label className="pr-3 text-xl">DeadLine:</label>
             <input 
             value={Deadline}
