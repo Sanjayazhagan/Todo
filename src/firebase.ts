@@ -6,7 +6,7 @@ import type { Auth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC6zd0VJhfwcxoaxI7VZ_nqn_N7Plzjes4",
-  authDomain: "https://todo-nine-blush-17.vercel.app/",
+  authDomain: "todo-9c123.firebaseapp.com",
   projectId: "todo-9c123",
   storageBucket: "todo-9c123.firebasestorage.app",
   messagingSenderId: "805586140828",
