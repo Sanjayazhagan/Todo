@@ -2,6 +2,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import Root from './Pages/Root'
 import HomePage from './Pages/HomePage'
 import SpacePage from './Pages/SpacePage'
+import { SignInPage } from './Pages/SigninPage'
 import { usePresistedState } from './Hooks/UsePresitantState'
 export interface Data{
   id:string,
@@ -32,8 +33,12 @@ function App() {
         element:<HomePage data={spaces} change={setSpaces}/>
       },
       {
-        path:"/space/:Spacename",
+        path:"space/:Spacename",
         element:<SpacePage data={spaces} change={setSpaces}/>
+      },
+      {
+        path:"signin",
+        element:<SignInPage />
       }
     ]
     }
